@@ -1,0 +1,502 @@
+
+.row.mb-2.title-search {
+    background-color: #fff;
+    /* width: 95%; */
+    margin: 0 auto;
+    padding: 10px 12px;
+    border-radius: 10px;
+}
+button.btn.btn-sidebar .fa-search{
+    /* margin-left: -12px; */
+}
+input.form-control.form-control-sidebar {
+    background-color: #dfdfdf;
+}
+.title-search .input-group{
+    background-color: #dfdfdf;
+    border-radius: 10px;
+
+}
+.title-search  .form-control{
+    border: none;
+}
+.compnay-info-panel{
+    background-color: #fff;
+    border-radius: 10px;
+    padding:10px 15px 14px 20px;
+}
+.title-name{
+    margin: 0px 0 2% 0;
+    padding:0px;
+}
+.title-name h3{
+    font-size: calc(0.5rem + 1.1vw);
+}
+.title-add h3{
+     font-size: calc(0.5rem + 1.1vw);
+}
+.deal-deashborad h3{
+     font-size: calc(0.5rem + 1.1vw);
+}
+.card-footer{
+    background-color: rgba(0,0,0,0);
+}
+.card-footer .btn-bg{
+    background-color: #00d4cd;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    padding: 0.5% 5%;
+    margin-bottom: 5%;
+    margin-top: 1.5%;
+}
+.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle{
+    background-color: rgba(0, 0, 0, 0);
+}
+.card-footer .btn-bgs:hover{
+ background-color: #00d4cd !important;
+    color: #000;
+}
+th.border-colspan {
+    border-radius: 5px 6px 6px 4px;
+    background: #e4f2f2;
+}
+thead tr{
+     /* background-color: #00d4cd !important; */
+     /* text-align:center */
+     vertical-align: center;
+     font-weight: 500;
+}
+.border-left-top{
+     background-color: #e4f2f2 !important;
+     border-radius: 5px 0px 0px 0px;
+}
+.border-right-top{
+     background-color: #e4f2f2 !important;
+     border-radius: 0px 5px 0px 0px;
+}
+.border-panel{
+    background-color: #e4f2f2;
+}
+.table td, .table th{
+     font-size: calc(0.5rem + 0.4vw);
+}
+a.add-deals-panel{
+    font-size: calc(0.5rem + 1.1vw);
+    color: #000;
+}
+ul.nav.nav-pills.uss-panel {
+    display: inline-flex;
+    width: 85%;
+    margin: 0 auto;
+    /* background: #fff; */
+    padding: 45px 0 0 45px;
+    /* border-radius: 12px; */
+}
+ul.nav.nav-pills.uss-panel li{
+    background-color: #00d4cd;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    box-shadow: #ccc 5px 5px 10px;
+    border: #b5b5b5 solid 1px;
+}
+/* ==================================== Task */
+   .task-title{
+      margin: 0px 2px 28px 0px;
+      padding: 15px 0 0 0px;
+    }
+    .task-title h3{
+     font-size: calc(0.5rem + 1.1vw);
+}
+/* ============================== Setting */
+ ul li{
+    list-style: none;
+}
+
+button.add-user-panel {
+    background-color: #00d4cd;
+    padding: 5% 20%;
+    margin-bottom: 15px;
+    display: block;
+    border-radius: 10px;
+    color: #000;
+    font-weight: 600;
+    border: #018883 solid 1px;
+}
+button.delete-user-panel{
+    background-color: #00d4cd;
+    padding: 5% 20%;
+    margin-bottom: 15px;
+    display: block;
+    border-radius: 10px;
+    color: #000;
+    font-weight: 600;
+    border: #018883 solid 1px;
+}
+ button.add-user-panel:hover,
+ button.delete-user-panel:hover{
+    background-color: #00fff7;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link
+{
+    background-color: #00fff7;
+    color: #000;
+    border-radius: 10px;
+    font-weight: 600;
+}
+ .nav-pills .nav-link:not(.active):hover{
+    background-color: #00fff7;
+    color: #000;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.nav-pills .nav-link{
+    color: #000;
+    font-weight: 600;
+}
+
+.uss-panel li a.nav-link{
+    padding: 2rem 6.5rem;
+}
+/* The Modal (background) */
+#settings_panel .modal
+ {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+ #settings_panel .user .modal-content,
+ #settings_panel .service .modal-content,
+ #settings_panel .subservice .modal-content
+  {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+ #settings_panel .user  .close,
+ #settings_panel .service  .close,
+ #settings_panel .subservice  .close
+  {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#settings_panel .user .close:hover,
+#settings_panel .service .close:hover,
+#settings_panel .subservice .close:hover
+{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#settings_panel .user .modal-header,
+#settings_panel .service .modal-header,
+#settings_panel .subservice .modal-header
+ {
+    padding: 2px 16px;
+    background-color: #00d4cd;
+
+}
+
+#settings_panel .user .modal-body,
+#settings_panel .service .modal-body,
+#settings_panel .subservice .modal-body
+{padding: 2px 16px;}
+
+#settings_panel .user .modal-footer,
+#settings_panel .service .modal-footer,
+#settings_panel .subservice .modal-footer
+ {
+    padding: 2px 16px;
+
+}
+
+/* ========================= Deals */
+ .tab-warp {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 15%;
+      }
+
+
+      .at-tabs-nav__item.current {
+        padding: 10px 20px;
+        background-color: #00d4cd;
+      }
+       .at-tabs-nav__item {
+        padding: 10px 20px;
+        /* margin: 0 10px; */
+        background: #dfdfdf;
+      }
+      .title-top{
+        width: 40%;
+        margin: 0 auto;
+        border-radius: 10px;
+      }
+      .title-top a.at-tabs-title {
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        font-weight: 600;
+      }
+      .sub-title-panel{
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 10px;
+        background-color: #fff;
+
+      }
+     .at-tabs-nav.sub-navbar.sub-title-panel{
+        padding: 0px !important;
+      }
+      .sub-title-panel .at-tabs-nav__item{
+        width: 25%;
+        margin: 0 auto;
+        border-right: 1px #fff solid;
+        background-color: #e4f2f2;
+      }
+      .sub-title-panel .at-tabs-nav__item.current {
+        padding: 10px 20px;
+        background-color: #00d4cd !important;
+      }
+      .sub-title-panel .at-tabs-nav__item:first-child{
+        border-radius: 10px 0 0 10px;
+      }
+      .sub-title-panel .at-tabs-nav__item:last-child{
+        border: none;
+        border-radius: 0px 10px 10px 0px;
+      }
+      .sub-title{
+        width: 40%;
+        margin: 0 auto;
+        border-radius: 10px;
+      }
+      .sub-title-panel .a.at-tabs-title{
+        font-weight: 500;
+      }
+      .sub-content-panel{
+        background-color: #fff;
+        padding: 3%;
+        margin-top: 2%;
+        border-radius: 10px;
+      }
+      .at-tabs-nav {
+        display: flex;
+        padding: 28px 0px;
+      }
+      .at-title-text-wrapper {
+            display: block;
+            text-align: center;
+        }
+
+      a.at-tabs-title {
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+      }
+
+      .current a.at-tabs-title {
+        color: #000;
+      }
+     .top-tab-panel{
+      background-color: #fff;
+      border-radius: 10px;
+     }
+
+     .middel-tap-content{
+
+       font-size: 16px;
+       padding: 22px 0px 25px 0px;
+       background: #e1e1e1;
+     }
+
+      /* .at-tabs-content {
+      } */
+
+      hr {
+        height: 5px;
+        background-color: green;
+      }
+
+
+      /* Vertial tabs */
+
+      .at-tabs.at-vertical {
+        display: flex;
+      }
+
+      .at-vertical .at-tabs-nav {
+        display: flex;
+        flex-direction: column;
+        padding: 28px 0px;
+      }
+      label:not(.form-check-label):not(.custom-file-label){
+        font-weight: normal !important;
+      }
+      .row.submit-btn {
+          position: relative;
+          top: 100px;
+          left: 3.2%;
+      }
+      .save-btn{
+       background-color: #00d4cd;
+        padding: 10px 60px;
+        border: none;
+        color: #000;
+        font-weight: bold;
+
+      }
+      .save-btn:hover{
+         background-color: #039691;
+      }
+      .pending-title{
+      margin: 0px 2px 28px 0px;
+      padding: 15px 0 0 0px;
+      }
+      .pending-title h3{
+          font-size: calc(0.5rem + 1.1vw);
+      }
+      .pending-title a .fas{
+        color: #dfdfdf;
+        background: #00d4cd;
+        padding: 2px;
+        border-radius: 5px;
+      }
+      table.pending-table tr td a{
+        color: #00d4cd;
+      }
+       table.pending-table tr td a .fas{
+        font-size: calc(
+          0.6rem + 0.6vw
+        );
+      }
+
+
+      /* =============================== Report */
+
+    .deal-deashborad{
+      margin:0px;
+      background: #e4f2f2;
+      border-radius: 10px 10px 0px 0px;
+      padding: 15px 0 0 30px;
+      border-bottom: none;
+    }
+    .report-panel th.border-colspan{
+      background-color: rgba(0, 0, 0, 0);
+      border-radius:0;
+    }
+     .report-panel .card{
+      border-radius: 0%;;
+     }
+    .report-panel .table thead th{
+      border-bottom: none !important;
+    }
+    .report-panel .table-hover tbody tr:hover{
+      background-color: rgba(0, 0, 0, 0);
+
+    }
+    /*============================================ setting */
+    table.user-table tr td a,
+    table.service-table tr td a,
+    table.subservice-table tr td a
+     {
+    color: #00d4cd;
+      }
+      table.user-table tr td a .fas,
+      table.service-table tr td a .fas,
+      table.subservice-table tr td a .fas
+       {
+          font-size: calc( 0.6rem + 0.6vw );
+      }
+    /*============================================ deal details*/
+    .title-bg{
+        background-color: #00d4cd;
+        text-align: center;
+        display: block;
+        color: #000;
+        padding: 5px 0px 1px 4px;
+        border-radius: 10px;
+        margin-bottom: 17px;
+    }
+    .title-bg h3{
+         font-weight: bold;
+    }
+    .deal-detail-panel .card{
+      margin-bottom: 0px;
+      border-radius: unset;
+
+    }
+    table {
+        word-wrap: break-word;
+    }
+    table tr td p{
+      margin: 0px;
+    }
+    .timeline>div>.timeline-item>.timeline-header{
+      background-color: #e4f2f2;
+    }
+    .view-btn-bg{
+      background-color: #00d4cd;
+      color: #000 !important;
+      padding: 5px 25px;
+    }
+    .tab-pane .timeline::before{
+      background-color: #00d4cd  !important;
+      width:2px !important;
+    }
+    .timeline>div>.fas{
+      background-color: #00d4cd;
+      border-radius: 0%;
+      height: 2px;
+      left: 31px;
+      top: 20px;
+    }
+
+.required::after {
+    content: " *";
+    color: red;
+    font-weight: bold;
+}
+
+.optional::after {
+    content: " (optional)";
+    color: #999;
+    font-weight: normal;
+}
+    /* ==================================== */
